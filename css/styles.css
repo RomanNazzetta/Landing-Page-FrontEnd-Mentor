@@ -143,6 +143,14 @@ body{
     --padding-container: 110px 0;
 }
 
+.section--white{
+    background-color: #fff;
+    position: relative;
+    --padding-container: 210px 0;
+    --wave-top: url('../images/bg-section-bottom-mobile-1.svg');
+    --wave-bottom: url('../images/bg-section-top-mobile-2.svg');
+}
+
 .section__container{
     display: flex;
     flex-direction: column;
@@ -164,3 +172,4 @@ body{
     margin-bottom: 16px;
     font-family: var(--poppins);
 }
+
