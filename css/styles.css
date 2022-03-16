@@ -84,6 +84,7 @@ body{
     padding: 16px 30px;
     border-radius: 30px;
     margin-top: 16px;
+    font-weight: 600;
 }
 
 .hero__picture{
@@ -171,5 +172,13 @@ body{
 .subtitle{
     margin-bottom: 16px;
     font-family: var(--poppins);
+}
+
+.question{
+    position: relative;
+    text-align: center;
+    --wave-top: url('../images/bg-section-bottom-mobile-2.svg');
+    --wave-bottom: url('../images/bg-footer-top-mobile.svg');
+    --padding-container:190px 0 210px;
 }
 
